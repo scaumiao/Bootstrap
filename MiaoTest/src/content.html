@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>自定义界面demo1</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/angular.min.js"></script>
+        <style type="text/css">
+            div#number input {
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+                line-height: 0;
+                border-style: solid;
+                color: #FFFFFF;
+                font-size: 18px;
+                /*border-width:1px;*/
+            }
+            div#number input#select {
+                background: #4A90E2;
+                border-color: #4A90E2;
+            }
+            div#number input#deselect {
+              background: #9B9B9B;
+              border-color: #9B9B9B;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+        <div class="container container-fluid">
+            <div id="number">
+                <input id="select" type="button" name="button" value="1"></input>
+                <!-- <input id="disselect" type="button" name="button" value="2"></input> -->
+            </div>
+            <div class="">
+                <p style="font-size:18px">定义数据表，添加字段属性</p>
+            </div>
+            <div id="number">
+                <input id="deselect" type="button" name="button" value="1"></input>
+                <!-- <input id="disselect" type="button" name="button" value="2"></input> -->
+            </div>
+
+        </div>
+
+    </body>
+</html>
